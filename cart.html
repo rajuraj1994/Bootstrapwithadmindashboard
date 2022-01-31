@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon"
+        href="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/shopping-online.jpg">
+    <!-- customs style css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fontawesome cdn link css -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Ecommerce - Homepage</title>
+</head>
+
+<body>
+    <!-- navabar layout content start -->
+    <div class="container-fluid">
+        <div class="row bg-secondary align-items-center">
+            <div class="col-lg-2">
+                <a class="navbar-brand text-white" href="index.html">Ecommerce</a>
+            </div>
+            <div class="col-lg-7">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="submit"><i class="far fa-search"></i></button>
+                </form>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex">
+                    <div class="offset-sm-2 col-sm-3 col-lg-3">
+                        <a href="signin.html" class="text-decoration-none text-white" title="signin">
+                            <i class="fas fa-sign-in-alt fs-3 my-3"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="col-lg-4">
+                            <a href="signup.html" class="text-decoration-none text-white" title="signup">
+                                <i class="fas fa-user-plus fs-3 my-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="col-lg-4">
+                            <a href="cart.html" class="text-decoration-none text-white" title="cart">
+                                <i class="fas fa-cart-plus fs-3 my-3 position-relative">
+                                    <span
+                                        class="position-absolute top-0 start-100 bg-warning badge rounded-pill translate-middle text-dark"
+                                        style="font-size: 12px;">
+                                        <span>5</span>
+                                    </span>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary custom-nav">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customer Service</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar layout content end -->
+
+    <!-- cart layout starts -->
+    <div class="container">
+        <h2 class="text-center text-muted mt-3">Your Cart Items</h2>
+        <div class="row justify-content-between mt-5 mb-3">
+            <div class="col-md-8 shadow-lg">
+                <hr/>
+                <div class="d-flex  p-3 align-items-center">
+                    <div class="col-3">
+                        <img src="https://image.shutterstock.com/image-photo/poznan-pol-jul-20-2020-260nw-1782856739.jpg"
+                            alt="" class="img-fluid" width="150">
+                    </div>
+                    <div class="col-3">
+                        <span><b>DELL</b></span>
+                    </div>
+                    <div class="col-2">
+                        <span class="text-warning">Rs.90000</span>
+                    </div>
+                    <div class="col-3">
+                        <div class="d-flex">
+                            <button class="btn btn-danger">-</button> &nbsp;
+                            <input type="number" name="qty" value="2" readonly class="form-control border-0">
+                            &nbsp;
+                            <button class="btn btn-primary">+</button> &nbsp;
+                        </div>
+
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div class="col-md-3">
+                <div class="shadow-lg p-2">
+                    <h5>Cart Summary</h5>
+                    <hr />
+                    <span><b>Units:</b> 2</span>
+                    <br />
+                    <span><b>Total:</b> Rs.180000</span>
+                    <hr />
+                    <button class="btn btn-warning">CheckOut</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- cart layout end -->
+
+    <!-- footer layout starts -->
+    <div class="container-fluid bg-secondary">
+        <footer class="py-5 mt-4">
+            <div class="row">
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 offset-1">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of whats new and exciting from us.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- footer layout ends -->
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

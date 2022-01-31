@@ -1,0 +1,15 @@
+.custom-nav{
+    background-color: #132f39 !important;
+}
+.custom-nav li a{
+    color:#ffff !important;
+}
+.carousel-item img{
+    height: 520px;
+}
+.card img{
+    /* height: 239px; */
+}
+footer h5,.nav-link{
+    color:#ffff !important;
+}
